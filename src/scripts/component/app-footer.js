@@ -6,7 +6,7 @@ class AppFooter extends HTMLElement {
   render() {
     this.innerHTML = `
       <p>
-        &copy; Copyright 2022 &dash; <a href="/">Resto Finder</a> | 
+        &copy; Copyright 2024 &dash; <a href="/">Dand's Resto</a> | 
         <a href="https://github.com/dandipra18/restaurant_PWA" target="_blank" >View on Github</a>
       </p>
       `;

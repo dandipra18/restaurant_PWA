@@ -13,17 +13,19 @@ h3,
 h4,
 h5,
 h6 {
-    color: #C36A2D;
+    color: black;
     font-family: "Poetsen One", sans-serif;
 }
 
 a {
-    color: #E2C275;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #FC4100;
 }
 
 a:hover,
 a:active {
-    color: #C36A2D;
+    color: blue;
 }
 
 body {
@@ -355,7 +357,7 @@ main {
 footer {
     text-align: center;
     color: #FBFBFB;
-    background-color: #C36A2D;
+    background-color: black;
     font-weight: 800;
     padding: 7vh 0;
 }
