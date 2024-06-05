@@ -1,13 +1,13 @@
-import UrlParser from '../../routes/url-parser';
+import UrlParser from '../../../routes/url-parser';
 // eslint-disable-next-line no-unused-vars
-import RestaurantSource from '../../data/restaurant-source';
+import RestaurantSource from '../../../data/restaurant-source';
 // eslint-disable-next-line max-len
-import { createRestoDetailTemplate, createRestoReviewTemplate } from '../templates/template-creator';
-import FavoriteButtonInitiator from '../../utils/favorite-btn-initiator';
-import FavoriteRestaurantDB from '../../data/favoriterestaurant-db';
+import { createRestoDetailTemplate, createRestoReviewTemplate } from '../../templates/template-creator';
+import FavoriteButtonInitiator from '../../../utils/favorite-btn-initiator';
+import FavoriteRestaurantDB from '../../../data/favoriterestaurant-db';
 
-import '../../component/resto-detail';
-import '../../component/resto-review';
+import '../../../component/Resto Detail/resto-detail';
+import '../../../component/Resto Review/resto-review';
 
 const Detail = {
   async render() {

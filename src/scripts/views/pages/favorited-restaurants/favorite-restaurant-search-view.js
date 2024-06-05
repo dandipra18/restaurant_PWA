@@ -1,5 +1,6 @@
 /* eslint-disable class-methods-use-this */
 import { createRestoItemTemplate } from '../../templates/template-creator';
+import './favorited-restaurants.css';
 
 class FavoriteRestaurantSearchView {
   getTemplate() {

@@ -1,0 +1,24 @@
+
+
+footer {
+    text-align: center;
+    color: #FBFBFB;
+    background-color: black;
+    font-weight: 800;
+    padding: 7vh 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FBFBFB;
+    min-height: 44px;
+    min-width: 44px;
+    line-height: 44px;
+    display: inline-block;
+}
+
+footer a:hover,
+footer a:active {
+    text-decoration: none;
+    color: #EADCA6;
+}

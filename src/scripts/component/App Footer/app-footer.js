@@ -1,3 +1,5 @@
+import './app-footer.css';
+
 class AppFooter extends HTMLElement {
   connectedCallback() {
     this.render();

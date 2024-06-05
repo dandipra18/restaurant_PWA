@@ -1,4 +1,5 @@
 import CONFIG from '../../globals/config';
+import './template-creator.css';
 
 const createRestoItemTemplate = (resto) => `
   <div class="col" id="resto-item">

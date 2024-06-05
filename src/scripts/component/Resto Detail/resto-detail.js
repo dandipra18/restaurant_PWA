@@ -1,3 +1,5 @@
+import './resto-detail.css';
+
 class RestoDetail extends HTMLElement {
   connectedCallback() {
     this.render();

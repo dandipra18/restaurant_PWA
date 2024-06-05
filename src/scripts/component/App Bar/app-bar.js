@@ -1,3 +1,5 @@
+import './app-bar.css';
+
 class AppBar extends HTMLElement {
   connectedCallback() {
     this.render();

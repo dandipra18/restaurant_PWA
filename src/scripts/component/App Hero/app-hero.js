@@ -1,3 +1,5 @@
+import './app-hero.css';
+
 class AppHero extends HTMLElement {
   connectedCallback() {
     this.render();

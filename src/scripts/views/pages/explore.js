@@ -1,7 +1,7 @@
 import RestaurantSource from '../../data/restaurant-source';
 import { createRestoItemTemplate } from '../templates/template-creator';
 
-import '../../component/resto-list';
+import '../../component/Resto List/resto-list';
 
 const Explore = {
   async render() {
